@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - stable
+script: "make env=production build"
+cache:
+  directories:
+    - node_modules
