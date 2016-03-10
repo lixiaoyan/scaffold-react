@@ -1,7 +1,9 @@
 import React from "react";
 
-export default (props) => (
+const App = (props) => (
   <div>
     {props.children}
   </div>
 );
+
+export default App;
